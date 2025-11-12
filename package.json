@@ -1,0 +1,20 @@
+{
+  "name": "backend_biceps",
+  "version": "1.0.0",
+  "description": "this for BRAHMANSH",
+  "keywords": [
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Brahmansh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
