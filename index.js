@@ -16,7 +16,7 @@ app.get(`/youtube`,(req,res) => {
     res.send('<h1> YOUNG ANSH </h1>')
 })
 
-//get is a type of request given through express here.
+//get is a type of rrequest given through express here.
 
 app.listen(port, () => {
   console.log(`anshu backend ${port}`)
