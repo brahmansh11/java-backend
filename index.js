@@ -18,7 +18,7 @@ app.get(`/youtube`,(req,res) => {
 
 //get is a type of rrequest given through express here.
 
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`anshu backend ${port}`)
 })
 
