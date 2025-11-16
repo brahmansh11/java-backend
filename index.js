@@ -64,7 +64,7 @@ app.get(`/youtube`,(req,res) => {
 })
 
 app.get(`/githubdata`,(req,res)=>{
-  res.json(githubData)
+  res.send(githubData)
 })
 
 //get is a type of rrequest given through express here.
