@@ -63,8 +63,8 @@ app.get(`/youtube`,(req,res) => {
     res.send('<h1> YOUNG ANSH </h1>')
 })
 
-app.get(`/githubdata`,(req,res)=>{
-  res.send(githubData)
+app.get(`/github`,(req,res)=>{
+  res.json(githubData)
 })
 
 //get is a type of rrequest given through express here.
